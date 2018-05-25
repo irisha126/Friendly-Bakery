@@ -1,0 +1,14 @@
+
+<div class="container1">
+
+    <h1>Cakes</h1>
+    <div class="row">
+        <% @cakes.each do |item| %>
+            <div class="col-lg-6 col-sm-12 sweet">
+                <img class='pic' src = '<%= item.img %>' >
+                <p> <%= item.description %> </p>
+                <p>Price: <%= item.price %> </p>
+            </div>
+        <% end %>
+    </div>
+</div>

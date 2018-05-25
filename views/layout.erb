@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href="/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+
+     <title>Bakery</title>
+    </head>
+    
+<body>
+    <div class="container-fluid">
+     
+<nav class="navbar navbar-light navbar-1 white">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="/"><h1>Sweet Connection</h1></a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cookies">Cookies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cakes">Cakes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="muffins">Muffins</a>
+            </li>
+        </ul>
+        <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+
+
+     <%= yield %> 
+           <footer>
+<!--               <div class="container">-->
+                   <div class="row">
+                       <div class="col-lg-6 col-sm-12">
+                           <h3>Our location</h3>
+                           <p>123 Happy str.<br>Happycity, NY 10010<br>212-123-4567</p>
+                       </div>
+                       <div class="col-lg-6 col-sm-12">
+                       
+                           <h3>Receive our newest catalog</h3>
+                           <a href ="/form" class = 'btn'><h2>Subscribe</h2></a>
+<!--
+                           <form action='/submition' method='POST'>
+                               <input type="email" name='email' placeholder="domain@email.com">
+                               <br>
+                               <input type='submit' value='Submit E-mail'>
+                           </form>
+-->
+                           </div>      
+                       
+                   </div>
+                   <div class="row">
+                       <div class="col-12">
+                        <a href="/500" class='social'><img class='social' src="images/instagram.png" title="Instagram" alt="Instagram"></a>
+                        <a href="/500" class='social'><img class='social' src="images/facebook.png" title="Facebook" alt="Facebook"></a>
+                        <a href="/500" class='social'><img class='social' src="images/twitter.png" title="Twitter" alt="Twitter"></a>
+                       </div>
+                   </div>
+                   
+<!--               </div>-->
+           </footer>
+       </div> 
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>      
+</body>
+</html>
