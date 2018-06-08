@@ -11,6 +11,7 @@
 #     end
     end
 
+# what is this????
  cake_1 = Cake.new('dfghjk', 30, 'images/red_velvet.png')
     cake_2 = Cake.new('ghjji', 45, 'images/tiramisu1.png')
     cake_3 = Cake.new('freywsl', 12, 'images/chocolate_cake.png')
