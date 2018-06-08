@@ -7,6 +7,7 @@
           @img = src
         end
      
+        # this is good, but indentation is a little off.
         def self.all
             [
         new("blah blah blah", 20, 'images/double-chocolate-almond-florentines.jpg'),

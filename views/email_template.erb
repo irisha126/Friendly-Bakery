@@ -1,9 +1,10 @@
-<p> Dear <%= "#{@f_name.capitalize}" %> <%= "#{@l_name.capitalize}" %>, here is our catalog:</p>
+<!-- you don't need the strings here -->
+<p> Dear <%= @f_name.capitalize %> <%= @l_name.capitalize %>, here is our catalog:</p>
 <ol>
      Cookies:
      <% @cookies.each do |cookie| %>
         <li><%= cookie.description %>
-        <p><%= "#{cookie.price}" %></p>
+        <p><%= cookie.price %></p>
         </li>
         <% end %>
 </ol>
