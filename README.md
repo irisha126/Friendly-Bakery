@@ -27,11 +27,11 @@ In programming, in order to not repeat yourself, sometimes we have to store our 
 That all being said, following was implemented:
 
 * Created one class per generic category of item sold in the bakery
- * Cookie class
- * Cake class
- * Muffin class
+    * Cookie class
+    * Cake class
+    * Muffin class
 * Used these classes to create 1 object per item being sold (e.g if you have 3 cookies for sale you would create 3 Cookie objects based on one Cookie class)
 * Each item should has the following attributes
- * description
- * price
+    * description
+    * price
 
