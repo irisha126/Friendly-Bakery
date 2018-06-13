@@ -2,18 +2,18 @@
 
     <h1>Cookies</h1>
     <div class="row">
-      <div class="col-lg-4"><img class='page-image' src="images/1.png" alt=""></div>
-      <div class="col-lg-8">
-          <div class="row">
-             <% @cookies.each do |item| %>
-                 <div class="col-lg-6 col-sm-12 sweet">
-                     <img class = 'pic' src = '<%= item.img %>' >
-                     <p> <%= item.description %> </p>
-                     <p>Price: <%= item.price %> </p>
-                 </div>
-             <% end %>
-          </div>
-      </div>
-   </div>
+        <div class="col-lg-4"><img class='page-image' src="images/1.png" alt=""></div>
+        <div class="col-lg-8">
+            <div class="row">
+                <% @cookies.each do |item| %>
+                    <div class="col-lg-6 col-sm-12 sweet">
+                        <img class = 'pic' src = '<%= item.img %>' >
+                        <p> <%= item.description %> </p>
+                        <p>Price: <%= item.price %> </p>
+                    </div>
+                 <% end %>
+            </div>
+        </div>
+    </div>
 </div>
 

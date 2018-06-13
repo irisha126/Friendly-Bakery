@@ -3,12 +3,17 @@
 
     <h1>Cakes</h1>
     <div class="row">
-        <% @cakes.each do |item| %>
-            <div class="col-lg-6 col-sm-12 sweet">
-                <img class='pic' src = '<%= item.img %>' >
-                <p> <%= item.description %> </p>
-                <p>Price: <%= item.price %> </p>
+        <div class="col-lg-4"><img class='page-image' src="images/strawberry-chocolate-cake.jpg" alt=""></div>
+        <div class="col-lg-8">
+            <div class="row">
+                <% @cakes.each do |item| %>
+                    <div class="col-lg-6 col-sm-12 sweet">
+                        <img class='pic' src = '<%= item.img %>' >
+                        <p> <%= item.description %> </p>
+                        <p>Price: <%= item.price %> </p>
+                    </div>
+                <% end %>
             </div>
-        <% end %>
+        </div>
     </div>
 </div>

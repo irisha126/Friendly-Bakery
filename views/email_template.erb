@@ -1,9 +1,29 @@
-<p> Dear <%= "#{@f_name.capitalize}" %> <%= "#{@l_name.capitalize}" %>, here is our catalog:</p>
+<p> Dear <%= @f_name.capitalize %> <%= @l_name.capitalize %>, here is our catalog:</p>
 <ol>
      Cookies:
      <% @cookies.each do |cookie| %>
         <li><%= cookie.description %>
-        <p><%= "#{cookie.price}" %></p>
+        <p><%= cookie.price %></p>
+        </li>
+        <% end %>
+</ol>
+
+
+<ol>
+     Cakes:
+     <% @cakes.each do |cake| %>
+        <li><%= cake.description %>
+        <p><%= cake.price %></p>
+        </li>
+        <% end %>
+</ol>
+
+
+<ol>
+     Muffins:
+     <% @muffins.each do |muffin| %>
+        <li><%= muffin.description %>
+        <p><%= muffin.price %></p>
         </li>
         <% end %>
 </ol>
