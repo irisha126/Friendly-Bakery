@@ -7,9 +7,5 @@
           @img = src
         end
      
-        def self.all
-            []
-        end
-     
  end
 

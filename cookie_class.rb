@@ -7,15 +7,5 @@
           @img = src
         end
      
-        def self.all
-            [
-        new("blah blah blah", 20, 'images/double-chocolate-almond-florentines.jpg'),
-        new('grhewjq', 10, 'images/chocolate.jpg'),
-        new('grhewjq', 10, 'images/chocolate-chip1.jpg'),
-        new('grhewjq', 10, 'images/mint-chocolate-chip-cookies.jpg')        
-                
-            ]
-
-        end
  end
 
