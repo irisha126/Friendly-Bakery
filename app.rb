@@ -35,7 +35,7 @@ def build_muffins
     [muffin_1, muffin_2, muffin_3, muffin_4]
 end
 
-
+class App < Sinatra::Base
 
 get ('/') do
     erb(:index)
@@ -110,3 +110,4 @@ get ('/500') do
 end
 
 
+end
